@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n, flag = 0;
+    cout<<"enter n: ";
+    cin>>n;
+    for (int i = 1; i<=n; i++)
+    {
+        if(i*i==n){
+            flag = 1;
+            break;
+        }
+    }
+        if (flag == 1){
+            cout<<"it is a perfect square\n";
+        }
+        else{
+            cout<<"not a perfect number\n";
+        }
+    
+    return 0;
+}
